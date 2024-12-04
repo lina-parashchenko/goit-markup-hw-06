@@ -500,6 +500,7 @@ background: #fff;
   color: #434455;
   text-align: justify;
   justify-content: center;
+  
 }
 
 @media only screen and(min-width:1158px){.desc-text{
@@ -520,15 +521,25 @@ background: #fff;
  
 }
 .team-list {
-  padding: 120px 0 120px;
-  background-color: #F4F4FD
+
+background-color: #F4F4FD
+
+
+ /* padding: 120px 0 120px;
+  background-color: #F4F4FD*/
 }
 .team-iteam{
-  display: flex;
+display: flex;
+flex-direction: column;
+
+
+
+
+ /* display: flex;
   justify-content: center;
     align-items: center;
     gap: 24px;
-    border-radius: 0px 0px 4px 4px;
+    border-radius: 0px 0px 4px 4px;*/
   }
  
 .soc-box{
