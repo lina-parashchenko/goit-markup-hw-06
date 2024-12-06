@@ -287,7 +287,7 @@ img {
 
  
 
-@media screen and (min-width:768px){.contacts-link {
+@media screen and (min-width:768px){.contacts-link{
     display: block;
     font-size: 16px;
     line-height: 1.5;
@@ -461,7 +461,6 @@ background: #fff;
   flex-wrap: wrap;
   gap: 24px;
  
-  /*gap: 24px 72px;*/
 }}
 
 
@@ -535,7 +534,7 @@ display: flex;
 flex-direction: column;
 gap:72px;}
 
-@media screen and (min-width:768px){.team-iteam{
+@media screen and (min-width:768px)and (max-width:1157px){.team-iteam{
   flex-direction: row;
     flex-wrap: wrap;
     gap: 64px 24px;
@@ -546,6 +545,7 @@ gap:72px;}
 
 @media only screen and (min-width:1158px){.team-iteam{
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   border-radius: 0px 0px 4px 4px;
@@ -851,9 +851,9 @@ flex-direction: row;
 
 .footer-soc-block{}
 
-@media screen and(min-width:1158px){.footer-soc-block {margin-right: 80px;}
+@media screen and(min-width:1158px){.footer-soc-block {margin-right: 80px;}}
   
-}
+
 
 
 
