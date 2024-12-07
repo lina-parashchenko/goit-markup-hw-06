@@ -168,6 +168,7 @@ display: none;}
     line-height: 1.11;
     letter-spacing: 0.02em;
     color: #2e2f42;
+
 }
 
 .social-list-mobile{
@@ -178,15 +179,23 @@ display: none;}
 }
 .contacts-menu-mobile{
   padding: 16px;
+
 }
-.address-list-mobile{
+.address-iteam{
+  padding-bottom: 24px;
   font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: #4d5ae5;
 }
+.address-list-mobile{
+  margin-bottom: 48px;
+}
+
+
+
 .header-logo{
 
 }
@@ -315,13 +324,23 @@ img {
   padding: 72px 0;
   background-image:linear-gradient(
     rgba(46, 47, 66, 0.7),
-    rgba(46, 47, 66, 0.7)),url(../images/people-office.jpg);
+    rgba(46, 47, 66, 0.7)),url(../images/Dark-bgmob@1x.jpg);
+
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   max-width: 320px;
   min-height: 432px;
 margin: 0 auto;}
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution:192dpi),
+(min-resolution:2dppx) 
+{.main-page{
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)), url(../images/Dark-bgmob@2x.jpg);}
+  
+}
 
 @media only screen and (min-width:768px){
   .main-page{
@@ -331,22 +350,43 @@ margin: 0 auto;}
     padding: 136px 0;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)),
-      url(../images/people-office.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+      url(../images/dark-bgtab@1x.jpg);
+    
     max-width: 1440px;
     height: 600px;
-    margin: 0 auto;}
+ }
 }
+@media (min-device-pixel-ratio: 2),
+(min-resolution:192dpi),
+(min-resolution:2dppx) {
+  .main-page {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)), url(../images/dark-bgtab@2x.jpg);
+  }
+
+}
+
 @media only screen and (min-width:1158px){
   .main-page{
     padding: 188px 0;
     max-width: 1440px;
     height: 600px;
-    margin: 0 auto;}
+    margin: 0 auto;
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)),
+      url(../images/people-office.jpg);
+  }
 }
  
+@media (min-device-pixel-ratio: 2),
+(min-resolution:192dpi),
+(min-resolution:2dppx) {
+  .main-page {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)), url(../images/people-office-des@2x.jpg);
+  }
+
+}
 
 
 .page-title{
@@ -467,7 +507,7 @@ background: #fff;
 @media only screen and (min-width:1158px){
   .descr-list{
     display: flex;
-    align-items: center;
+
     justify-content: center;
     gap: 24px;
   padding: 0 156px;}
