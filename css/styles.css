@@ -876,9 +876,19 @@ padding: 100px 0;
   
 }}
 
-  .container-footer{}
-
-  @media screen and (min-width:1158px){.container-footer{margin-right: 120px;}
+  .container-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+@media screen and (min-width:768px){.container-footer{
+  align-items: flex-start;
+}
+  
+}
+  @media screen and (min-width:1158px){.container-footer{
+    align-items: flex-start;
+    margin-right: 120px;}
     
   }
   
