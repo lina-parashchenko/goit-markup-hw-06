@@ -192,9 +192,10 @@ display: none;}
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #4d5ae5;
+    padding-bottom: 16px;
 }
 @media screen and (min-width:768px){.adress-iteam{
-  padding: 0;
+  padding-bottom: 0;
 }
   
 }
@@ -361,7 +362,7 @@ margin: 0 auto;}
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 1440px;
-    height: 600px;
+  
  }
 
 @media (min-device-pixel-ratio: 2),
@@ -395,7 +396,12 @@ margin: 0 auto;}
   }
 
 }}
-
+.container-hero{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
 .page-title{
   max-width: 216px;
@@ -414,7 +420,6 @@ margin: 0 auto;}
       font-size: 56px;
       line-height: 1.07;
       padding-bottom: 36px;
-      margin-left: 110px;
   }
 }
 @media only screen and (min-width:1158px){
