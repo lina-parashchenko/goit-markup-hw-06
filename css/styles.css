@@ -888,7 +888,8 @@ padding: 100px 0;
 }
   @media screen and (min-width:1158px){.container-footer{
     align-items: flex-start;
-    margin-right: 120px;}
+    margin-right: 120px;
+  }
     
   }
   
@@ -913,6 +914,7 @@ padding: 100px 0;
 
 @media screen and (min-width:1158px){.page-end .footer-subscribe{
  margin-right: 0;
+ margin-left: 80px;
 }
   
 }
@@ -932,9 +934,11 @@ flex-direction: row;
   
 }
 
-@media screen and (min-width:1158px){.soc-footer{display: flex;
+@media screen and (min-width:1158px){.soc-footer{
+  display: flex;
   align-items: baseline;
-padding: 0;}
+padding: 0;
+margin-left: 156px;}
 
 }
 .social-list-footer{
