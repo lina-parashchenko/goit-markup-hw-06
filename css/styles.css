@@ -335,7 +335,7 @@ img {
   padding: 72px 0;
   background-image:linear-gradient(
     rgba(46, 47, 66, 0.7),
-    rgba(46, 47, 66, 0.7)),url(../images/Dark-bgmob@1x.jpg);
+    rgba(46, 47, 66, 0.7)),url(../images/dark-bgmob@1x.jpg);
   max-width: 320px;
   min-height: 432px;
 margin: 0 auto;}
@@ -345,7 +345,7 @@ margin: 0 auto;}
 (min-resolution:2dppx) 
 {.main-page{
   background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)), url(../images/Dark-bgmob@2x.jpg);}
+      rgba(46, 47, 66, 0.7)), url(../images/dark-bgmob@2x.jpg);}
   
 }
 
@@ -1063,9 +1063,9 @@ align-items: center;}
   
 }
  .backdrop{
-  position: fixed;
+  /*position: fixed;*/
   top:0%;
-  left:16px;
+ /* left:16px;*/
   min-width: 288px;
   min-height: 623px;
   background-color: rgba(46, 47, 66, 0.4);
