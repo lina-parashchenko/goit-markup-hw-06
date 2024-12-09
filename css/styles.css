@@ -412,6 +412,7 @@ margin: 0 auto;}
     text-align: center;
     color: #fff;
     padding-bottom: 72px;
+    margin: 0 auto;
 
 } 
 @media only screen and (min-width:768px){
@@ -420,6 +421,7 @@ margin: 0 auto;}
       font-size: 56px;
       line-height: 1.07;
       padding-bottom: 36px;
+     
   }
 }
 @media only screen and (min-width:1158px){
