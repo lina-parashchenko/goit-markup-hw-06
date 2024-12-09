@@ -896,6 +896,7 @@ padding: 100px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
+    
   }
 @media screen and (min-width:768px){.container-footer{
   align-items: flex-start;
@@ -916,7 +917,7 @@ padding: 100px 0;
        line-height: 1.5;
        letter-spacing: 0.02em;
        color: #f4f4fd;
-      
+      padding-left: 16px;
      }
 @media screen and (min-width:768px){.end-text{
   width: 264px;
