@@ -920,7 +920,7 @@ padding: 100px 0;
        line-height: 1.5;
        letter-spacing: 0.02em;
        color: #f4f4fd;
-      
+      width: 288px;
      }
 @media screen and (min-width:768px){.end-text{
   width: 264px;
