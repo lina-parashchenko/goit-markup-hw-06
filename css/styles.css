@@ -518,7 +518,7 @@ padding: 76px 0 75px;
 display: flex;
 flex-direction: column;
 gap:72px;
-padding: 0px 16px;
+
 background: #fff;
 }
 
@@ -716,7 +716,7 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 width: 288px;
  
 }
-@media screen and (min-width:768){.port-iteam{
+@media screen and (min-width:768px){.port-iteam{
   width: calc((100% - 24px) / 2);
   margin-bottom: 72px;}
   
@@ -1103,7 +1103,7 @@ align-items: center;}
   
 }
  .backdrop{
-  /*position: fixed;*/
+  position: fixed;
   top:0%;
  /* left:16px;*/
   min-width: 288px;
